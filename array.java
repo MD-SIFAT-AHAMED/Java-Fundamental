@@ -24,5 +24,25 @@ public class array {
             }
             System.out.println();
         }
+        System.out.println("Jagged array");
+        // Jagged array
+        int value[][] = new int[3][];
+        value[0] = new int[3];
+        value[1] = new int[5];
+        value[2] = new int[2];
+
+        for (int i = 0; i < value.length; i++) {
+            for (int j = 0; j < value[i].length; j++) {
+                value[i][j] = (int) (Math.random() * 10);
+            }
+        }
+
+        for (int n[] : value) {
+            for (int r : n) {
+                System.out.print(r + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
