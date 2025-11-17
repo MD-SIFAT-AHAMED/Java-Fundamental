@@ -1,3 +1,7 @@
+class Student {
+    String name;
+    int age;
+}
 
 public class array {
 
@@ -44,5 +48,28 @@ public class array {
             System.out.println();
         }
 
+        System.out.println("Student object print");
+
+        Student s1 = new Student();
+        s1.name = "sifat";
+        s1.age = 29;
+
+        Student s2 = new Student();
+        s2.name = "sifat ahamed";
+        s2.age = 19;
+
+        Student s3 = new Student();
+        s3.name = "Md sifat";
+        s3.age = 43;
+
+        Student students[] = new Student[3];
+        students[0] = s1;
+        students[1] = s2;
+        students[2] = s3;
+
+        // ForEach loop
+        for (Student stud : students) {
+            System.out.println(stud.name + " " + stud.age);
+        }
     }
 }
