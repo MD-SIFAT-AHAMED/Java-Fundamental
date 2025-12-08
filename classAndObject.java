@@ -6,7 +6,7 @@ class Student {
         System.out.println("Name is: " + name + ", Age is: " + age);
     }
 }
-
+ 
 public class classAndObject {
     public static void main(String[] args) {
         Student s = new Student();

@@ -1,4 +1,6 @@
+
 class Student {
+
     String name;
     int age;
 }
@@ -8,6 +10,7 @@ public class array {
     public static void main(String[] args) {
         // 1D array
         int arr[] = new int[10];
+        int aee[] = new int[38];
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

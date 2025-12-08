@@ -1,6 +1,6 @@
 class Animal{
     public void MakeSound(){
-        System.out.println("GEoGeoGeo");
+        System.out.println("GeoGeoGeo");
     }
 }
 

@@ -9,6 +9,7 @@ class Mobile {
     }
 }
 
+
 public class staticVariable {
 
     public static void main(String[] args) {
